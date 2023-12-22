@@ -138,13 +138,13 @@
   <element type="SpectrumVisualiser" xAnchor="#Cover_17b.1.5" x="0" yAnchor="Panel.Bottom" y="-160" widthDock="X:#Cover_21b.Right" width="0" height="160" fg="95,255,255,255" bdr="225,252,140,3"></element>
 
 <!-- Shuffle -->
-<element type="Text" xAnchor="#Controls.35" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="shuffleToggle" visibleTrigger="shuffleOn">&#xE8B1;</element>
-<element type="Text" xAnchor="#Controls.35" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="shuffleToggle" visibleTrigger="ShuffleOff">&#xE94E;</element>
+<element type="Text" xAnchor="#Controls.35" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="252,78,3" onClick="shuffleToggle" visibleTrigger="shuffleOn">&#xE8B1;</element>
+<element type="Text" xAnchor="#Controls.35" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="252,78,3" onClick="shuffleToggle" visibleTrigger="ShuffleOff">&#xE94E;</element>
 
 
 <!-- Mute -->
-<element type="Text" xAnchor="#Controls.18" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="VolumeToggleMute" visibleTrigger="VolumeNotMute">&#xE7F5;</element>
-<element type="Text" xAnchor="#Controls.18" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="VolumeToggleMute" visibleTrigger="VolumeMute">&#xE74F;</element>
+<element type="Text" xAnchor="#Controls.18" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="252,78,3" onClick="VolumeToggleMute" visibleTrigger="VolumeNotMute">&#xE7F5;</element>
+<element type="Text" xAnchor="#Controls.18" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="252,78,3" onClick="VolumeToggleMute" visibleTrigger="VolumeMute">&#xE74F;</element>
 
 
 	
