@@ -95,7 +95,7 @@
 
   <!-- Artist Image Panel-->
   <element name="#IIL" type="Block" xAnchor="#Cover_6.Left" x="0" yAnchor="#Cover_6a.Bottom" y="5" align="Bottom" widthDock="x:#Cover_22a.Left" width="0" heightDock="Y:#Cover_17b.Top" height="2" bg="90,0,0,0" ></element>
-  <element type="Gallery" xAnchor="#IIL.Left" x="0" yAnchor="#IIL.Top" y="0" widthDock="x:#IIL.Right" width="0" heightDock="y:#IIL.Bottom" height="0" aspectRatio="zoomKeep" fillColor="0,0,0,0" interval="40" tags="artist" ></element>
+  <element type="Gallery" xAnchor="#IIL.Left" x="0" yAnchor="#IIL.Top" y="0" widthDock="x:#IIL.Right" width="0" heightDock="y:#IIL.Bottom" height="0" aspectRatio="zoomKeep" fillColor="0,0,0,0" interval="0" tags="artist" ></element>
 
 	<!-- Artist Info Panel-->
 	<autoHide name="#ArtistInfoPanel" xAnchor="#IIL.Left" x="0" yAnchor="#IIL.Top" y="0" widthDock="x:#IIL.Right" width="0" heightDock="y:#IIL.Bottom" height="0" bg="225,0,0,0" fg="150,150,150" fg2="200,200,200" allowPinning="true" resizePictures="false">
