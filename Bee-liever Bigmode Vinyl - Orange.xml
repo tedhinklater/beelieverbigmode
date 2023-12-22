@@ -36,60 +36,65 @@
   	<element name="#B22" type="Block" xAnchor="#AlbumPanel.90" x="0" yAnchor="#AlbumPanel.51" y="0" widthDock="Panel.Width.10" width="0" heightDock="Panel.Height.49" height="0" bg="0,0,0,0" ></element>
 
 	<!-- Album Cover -->
-	<element name="#Cover_1" type="AlbumCover" id="Tracks[1]" xAnchor="#B1.49" x="0" yAnchor="#B1.Top" y="0" align="Top.Center" widthDock="#B1.Width.95" width="0" heightDock="#B1.Width.95" height="0" brightness="1" ></element>
-	<element name="#Cover_1a" type="AlbumCover"  id="Tracks[18]" xAnchor="#B1.50" x="0" yAnchor="#B1.53" y="0" align="Middle.Center" widthDock="#B1.Width.85" width="0" heightDock="#B1.Width.85" height="0" brightness="0.2" ></element>
-	<element name="#Cover_1b" type="AlbumCover"  id="Tracks[19]" xAnchor="#B1.50" x="0" yAnchor="#B1.101" y="0" align="Bottom.Center" widthDock="#B1.Width.85" width="0" heightDock="#B1.Width.85" height="0" brightness="0.1" ></element>
+	<element name="#Cover_1" type="AlbumCover" id="Tracks[1]" xAnchor="#B1.49" x="0" yAnchor="Panel.1" y="0" align="Top.Center" widthDock="#B1.Width.95" width="0" heightDock="#B1.Width.95" height="0" brightness="1" ></element>
+	<element name="#Cover_1a" type="AlbumCover"  id="Tracks[18]" xAnchor="#Cover_1.5" x="0" yAnchor="#Cover_1.Bottom" y="5" align="Bottom" widthDock="#B1.Width.85" width="0" heightDock="#B1.Width.85" height="0" brightness="0.2" ></element>
+	<element name="#Cover_1b" type="AlbumCover"  id="Tracks[19]" xAnchor="#Cover_1.5" x="0" yAnchor="Panel.Center" y="-160" align="Bottom" widthDock="#B1.Width.85" width="0" heightDock="#B1.Width.85" height="0" brightness="0.1" ></element>
 
-	<element name="#Cover_2" type="AlbumCover"  id="Tracks[2]" xAnchor="#B2.55" x="0" yAnchor="#B2.1" y="-1" align="Top.Center" widthDock="#B2.Width.90" width="0" heightDock="#B2.Width.90" height="0" brightness="1" ></element>
+	<element name="#Cover_2" type="AlbumCover"  id="Tracks[2]" xAnchor="#Cover_1.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B2.Width.90" width="0" heightDock="#B2.Width.90" height="0" brightness="1" ></element>
 
-	<element name="#Cover_3" type="AlbumCover"  id="Tracks[3]" xAnchor="#B3.63" x="0" yAnchor="#B3.1" y="-1" align="Top.Center" widthDock="#B3.Width.90" width="0" heightDock="#B3.Width.90" height="0" brightness="1" ></element>
-	<element name="#Cover_3b" type="AlbumCover"  xAnchor="#B2.10" x="0" yAnchor="#B2.33.5" y="1" align="Top.Left" widthDock="#B3.Width.381" width="0" heightDock="#B3.Width.381" height="0" brightness="1" ></element>
+	<element name="#Cover_3" type="AlbumCover"  id="Tracks[3]" xAnchor="#Cover_2.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B3.Width.90" width="0" heightDock="#B3.Width.90" height="0" brightness="1" ></element>
 
-	<element name="#Cover_4" type="AlbumCover"  id="Tracks[4]" xAnchor="#B4.70" x="0" yAnchor="#B4.1" y="-1" align="Top.Center" widthDock="#B4.Width.90" width="0" heightDock="#B4.Width.90" height="0" brightness="1" ></element>
+	<element name="#Cover_4" type="AlbumCover"  id="Tracks[4]" xAnchor="#Cover_3.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B4.Width.90" width="0" heightDock="#B4.Width.90" height="0" brightness="1" ></element>
 
-	<element name="#Cover_5" type="AlbumCover"  id="Tracks[5]" xAnchor="#B5.77" x="0" yAnchor="#B5.1" y="-1" align="Top.Center" widthDock="#B5.Width.90" width="0" heightDock="#B5.Width.90" height="0" brightness="1" ></element>
+	<element name="#Cover_5" type="AlbumCover"  id="Tracks[5]" xAnchor="#Cover_4.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B5.Width.90" width="0" heightDock="#B5.Width.90" height="0" brightness="1" ></element>
 
-	<element name="#Cover_6" type="AlbumCover"  id="Tracks[6]" xAnchor="#B6.80" x="0" yAnchor="#B6.2" y="-1" align="Top.Center" widthDock="#B6.Width.85" width="0" heightDock="#B6.Width.85" height="0" brightness=".9" ></element>
-	<element name="#Cover_6a" type="AlbumCover"  id="Tracks[17]" xAnchor="#B6.80" x="0" yAnchor="#B6.48" y="-1" align="Middle.Center" widthDock="#B6.Width.85" width="0" heightDock="#B6.Width.85" height="0" brightness="0.2" ></element>
-	<element name="#Cover_6b" type="AlbumCover"  xAnchor="#B6.82" x="0" yAnchor="#B6.Bottom" y="-1" align="Bottom.Center" widthDock="#B6.Width.85" width="0" heightDock="#B6.Width.85" height="0" brightness="0.2" ></element>
+	<element name="#Cover_6" type="AlbumCover"  id="Tracks[6]" xAnchor="#Cover_5.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B6.Width.85" width="0" heightDock="#B6.Width.85" height="0" brightness=".9" ></element>
+	<element name="#Cover_6a" type="AlbumCover"  id="Tracks[17]" xAnchor="#Cover_6.Bottom" x="0" yAnchor="#Cover_6.Bottom" y="5" align="Bottom" widthDock="#B6.Width.85" width="0" heightDock="#B6.Width.85" height="0" brightness="0.2" ></element>
+	<element name="#Cover_6b" type="AlbumCover"  xAnchor="#Cover_6a.Bottom" x="0" yAnchor="#Cover_6a.Bottom" y="5" align="Bottom" widthDock="#B6.Width.85" width="0" heightDock="#B6.Width.85" height="0" brightness="0.2" ></element>
 
-	<element name="#Cover_7" type="AlbumCover"  id="Tracks[7]" xAnchor="#B7.75" x="0" yAnchor="#B7.2" y="-1" align="Top.Center" widthDock="#B7.Width.85" width="0" heightDock="#B7.Width.85" height="0" brightness="0.9" ></element>
-	<element name="#Cover_7a" type="AlbumCover"  id="Tracks[16]" xAnchor="#B7.75" x="0" yAnchor="#B7.48" y="-1" align="Middle.Center" widthDock="#B7.Width.85" width="0" heightDock="#B7.Width.85" height="0" brightness="0.3" ></element>
+	<element name="#Cover_7" type="AlbumCover"  id="Tracks[7]" xAnchor="#Cover_6.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B7.Width.85" width="0" heightDock="#B7.Width.85" height="0" brightness="0.9" ></element>
+	<element name="#Cover_7a" type="AlbumCover"  id="Tracks[16]" xAnchor="#Cover_7.Bottom" x="0" yAnchor="#Cover_7.Bottom" y="5" align="Bottom" widthDock="#B7.Width.85" width="0" heightDock="#B7.Width.85" height="0" brightness="0.3" ></element>
 
-	<element name="#Cover_8" type="AlbumCover"  id="Tracks[8]" xAnchor="#B8.71" x="0" yAnchor="#B8.2" y="-1" align="Top.Center" widthDock="#B8.Width.85" width="0" heightDock="#B8.Width.85" height="0" brightness="0.9" ></element>
-	<element name="#Cover_8a" type="AlbumCover"  id="Tracks[15]" xAnchor="#B8.71" x="0" yAnchor="#B8.48" y="-1" align="Middle.Center" widthDock="#B8.Width.85" width="0" heightDock="#B8.Width.85" height="0" brightness="0.4" ></element>
+	<element name="#Cover_8" type="AlbumCover"  id="Tracks[8]" xAnchor="#Cover_7.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B8.Width.85" width="0" heightDock="#B8.Width.85" height="0" brightness="0.9" ></element>
+	<element name="#Cover_8a" type="AlbumCover"  id="Tracks[15]" xAnchor="#Cover_8.Bottom" x="0" yAnchor="#Cover_8.Bottom" y="5" align="Bottom" widthDock="#B8.Width.85" width="0" heightDock="#B8.Width.85" height="0" brightness="0.4" ></element>
 
-	<element name="#Cover_9" type="AlbumCover"  id="Tracks[9]" xAnchor="#B9.66" x="0" yAnchor="#B9.2" y="-1" align="Top.Center" widthDock="#B9.Width.85" width="0" heightDock="#B9.Width.85" height="0" brightness="0.7" ></element>
-	<element name="#Cover_9a" type="AlbumCover"  id="Tracks[14]" xAnchor="#B9.66" x="0" yAnchor="#B9.48" y="-1" align="Middle.Center" widthDock="#B9.Width.85" width="0" heightDock="#B9.Width.85" height="0" brightness="0.5" ></element>
+	<element name="#Cover_9" type="AlbumCover"  id="Tracks[9]" xAnchor="#Cover_8.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B9.Width.85" width="0" heightDock="#B9.Width.85" height="0" brightness="0.7" ></element>
+	<element name="#Cover_9a" type="AlbumCover"  id="Tracks[14]" xAnchor="#Cover_9.Bottom" x="0" yAnchor="#Cover_9.Bottom" y="5" widthDock="#B9.Width.85" width="0" heightDock="#B9.Width.85" height="0" brightness="0.5" ></element>
 
-	<element name="#Cover_10" type="AlbumCover"  id="Tracks[10]" xAnchor="#B10.61" x="0" yAnchor="#B10.2" y="-1" align="Top.Center" widthDock="#B10.Width.85" width="0" heightDock="#B10.Width.85" height="0" brightness="0.7" ></element>
-	<element name="#Cover_10a" type="AlbumCover"  id="Tracks[13]" xAnchor="#B10.61" x="0" yAnchor="#B10.48" y="-1" align="Middle.Center" widthDock="#B10.Width.85" width="0" heightDock="#B10.Width.85" height="0" brightness="0.6" ></element>
+	<element name="#Cover_10" type="AlbumCover"  id="Tracks[10]" xAnchor="#Cover_9.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B10.Width.85" width="0" heightDock="#B10.Width.85" height="0" brightness="0.7" ></element>
+	<element name="#Cover_10a" type="AlbumCover"  id="Tracks[13]" xAnchor="#Cover_10.Bottom" x="0" yAnchor="#Cover_10.Bottom" y="5" widthDock="#B10.Width.85" width="0" heightDock="#B10.Width.85" height="0" brightness="0.6" ></element>
 
-	<element name="#Cover_11" type="AlbumCover"  id="Tracks[11]" xAnchor="#B11.56.5" x="0" yAnchor="#B11.2" y="-1" align="Top.Center" widthDock="#B11.Width.85" width="0" heightDock="#B11.Width.85" height="0" brightness="0.7" ></element>
-	<element name="#Cover_11a" type="AlbumCover"  id="Tracks[12]" xAnchor="#B11.56.5" x="0" yAnchor="#B11.48" y="-1" align="Middle.Center" widthDock="#B11.Width.85" width="0" heightDock="#B11.Width.85" height="0" brightness="0.7" ></element>
-	<element name="#Cover_11b" type="AlbumCover"  id="Tracks[31]" xAnchor="#B11.56.5" x="0" yAnchor="#B11.101" y="-1" align="Bottom.Center" widthDock="#B11.Width.85" width="0" heightDock="#B11.Width.85" height="0" brightness="0.01" ></element>
+	<element name="#Cover_11" type="AlbumCover"  id="Tracks[11]" xAnchor="#Cover_10.Right" x="7" yAnchor="#Cover_1.Top" y="0" align="Bottom" widthDock="#B11.Width.85" width="0" heightDock="#B11.Width.85" height="0" brightness="0.7" ></element>
+	<element name="#Cover_11a" type="AlbumCover"  id="Tracks[12]" xAnchor="#Cover_11.Bottom" x="0" yAnchor="#Cover_11.Bottom" y="5" align="Bottom" widthDock="#B11.Width.85" width="0" heightDock="#B11.Width.85" height="0" brightness="0.7" ></element>
+	<element name="#Cover_11b" type="AlbumCover"  id="Tracks[31]" xAnchor="#Cover_11a.Bottom" x="0" yAnchor="Panel.Center" y="-160" align="Bottom" widthDock="#B11.Width.85" width="0" heightDock="#B11.Width.85" height="0" brightness="0.01" ></element>
 
 
-	<element name="#Cover_12" type="AlbumCover"  id="Tracks[20]" xAnchor="#B12.50" x="0" yAnchor="#B12.2" y="-1" align="Top.Center" widthDock="#B12.Width.85" width="0" heightDock="#B12.Width.85" height="0" brightness="0.1" ></element>
-	<element name="#Cover_12a" type="AlbumCover"  id="Tracks[21]" xAnchor="#B12.50" x="0" yAnchor="#B12.51" y="-1" align="Middle.Center" widthDock="#B12.Width.85" width="0" heightDock="#B12.Width.85" height="0" brightness="0.1" ></element>
-	<element name="#Cover_12b" type="AlbumCover"  id="Tracks[22]" xAnchor="#B12.50" x="0" yAnchor="#B12.Bottom" y="-1" align="Bottom.Center" widthDock="#B12.Width.85" width="0" heightDock="#B12.Width.85" height="0" brightness="0.1" ></element>
 
-	<element name="#Cover_17b" type="AlbumCover"  id="Tracks[23]" xAnchor="#B17.80" x="0" yAnchor="#B17.Bottom" y="-1" align="Bottom.Center" widthDock="#B17.Width.85" width="0" heightDock="#B17.Width.85" height="0" brightness="0.09" ></element>
+	<element name="#Cover_12" type="AlbumCover"  id="Tracks[20]" xAnchor="#Cover_1b.Bottom" x="0" yAnchor="Panel.Center" y="0" align="Bottom" widthDock="#B12.Width.85" width="0" heightDock="#B12.Width.85" height="0" brightness="0.1" ></element>
+	<element name="#Cover_12a" type="AlbumCover"  id="Tracks[21]" xAnchor="#Cover_12.Bottom" x="0" yAnchor="Panel.67" y="5" align="Bottom" widthDock="#B12.Width.85" width="0" heightDock="#B12.Width.85" height="0" brightness="0.1" ></element>
+	<element name="#Cover_12b" type="AlbumCover"  id="Tracks[22]" xAnchor="#Cover_2a.Bottom" x="7" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B12.Width.85" width="0" heightDock="#B12.Width.85" height="0" brightness="0.1" ></element>
 
-	<element name="#Cover_18b" type="AlbumCover"  id="Tracks[24]" xAnchor="#B18.75" x="0" yAnchor="#B18.Bottom" y="-1" align="Bottom.Center" widthDock="#B18.Width.85" width="0" heightDock="#B18.Width.85" height="0" brightness="0.08" ></element>
 
-	<element name="#Cover_19b" type="AlbumCover"  id="Tracks[25]" xAnchor="#B19.71" x="0" yAnchor="#B19.Bottom" y="-1" align="Bottom.Center" widthDock="#B19.Width.85" width="0" heightDock="#B19.Width.85" height="0" brightness="0.07" ></element>
+	<element name="#Cover_17b" type="AlbumCover"  id="Tracks[23]" xAnchor="#Cover_6.Bottom" x="0" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B17.Width.85" width="0" heightDock="#B17.Width.85" height="0" brightness="0.09" ></element>
 
-	<element name="#Cover_20b" type="AlbumCover"  id="Tracks[26]" xAnchor="#B20.66" x="0" yAnchor="#B20.Bottom" y="-1" align="Bottom.Center" widthDock="#B20.Width.85" width="0" heightDock="#B20.Width.85" height="0" brightness="0.06" ></element>
+	<element name="#Cover_18b" type="AlbumCover"  id="Tracks[24]" xAnchor="#Cover_7.Bottom" x="0" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B18.Width.85" width="0" heightDock="#B18.Width.85" height="0" brightness="0.08" ></element>
 
-	<element name="#Cover_21b" type="AlbumCover"  id="Tracks[27]" xAnchor="#B21.61" x="0" yAnchor="#B21.Bottom" y="-1" align="Bottom.Center" widthDock="#B21.Width.85" width="0" heightDock="#B21.Width.85" height="0" brightness="0.05" ></element>
+	<element name="#Cover_19b" type="AlbumCover"  id="Tracks[25]" xAnchor="#Cover_8.Bottom" x="0" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B19.Width.85" width="0" heightDock="#B19.Width.85" height="0" brightness="0.07" ></element>
 
- 	<element name="#Cover_22" type="AlbumCover"  id="Tracks[30]" xAnchor="#B22.56.5" x="0" yAnchor="#B22.2" y="-1" align="Top.Center" widthDock="#B22.Width.85" width="0" heightDock="#B22.Width.85" height="0" brightness="0.02" ></element>
-	<element name="#Cover_22a" type="AlbumCover"  id="Tracks[29]" xAnchor="#B22.56.5" x="0" yAnchor="#B22.51" y="-1" align="Middle.Center" widthDock="#B22.Width.85" width="0" heightDock="#B22.Width.85" height="0" brightness="0.03" ></element>
-	<element name="#Cover_22b" type="AlbumCover"  id="Tracks[28]" xAnchor="#B22.56.5" x="0" yAnchor="#B22.Bottom" y="-1" align="Bottom.Center" widthDock="#B22.Width.85" width="0" heightDock="#B22.Width.85" height="0" brightness="0.04" ></element>
+	<element name="#Cover_20b" type="AlbumCover"  id="Tracks[26]" xAnchor="#Cover_9.Bottom" x="0" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B20.Width.85" width="0" heightDock="#B20.Width.85" height="0" brightness="0.06" ></element>
+
+	<element name="#Cover_21b" type="AlbumCover"  id="Tracks[27]" xAnchor="#Cover_10.Bottom" x="0" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B21.Width.85" width="0" heightDock="#B21.Width.85" height="0" brightness="0.05" ></element>
+
+ 	<element name="#Cover_22" type="AlbumCover"  id="Tracks[30]" xAnchor="#Cover_11b.Bottom" x="0" yAnchor="Panel.Center" y="0" align="Bottom" widthDock="#B22.Width.85" width="0" heightDock="#B22.Width.85" height="0" brightness="0.02" ></element>
+	<element name="#Cover_22a" type="AlbumCover"  id="Tracks[29]" xAnchor="#Cover_22.Bottom" x="0" yAnchor="Panel.67" y="5" align="Bottom" widthDock="#B22.Width.85" width="0" heightDock="#B22.Width.85" height="0" brightness="0.03" ></element>
+	<element name="#Cover_22b" type="AlbumCover"  id="Tracks[28]" xAnchor="#Cover_22a.Bottom" x="0" yAnchor="Panel.Bottom" y="-160" align="Bottom" widthDock="#B22.Width.85" width="0" heightDock="#B22.Width.85" height="0" brightness="0.04" ></element>
+
+
+<element name="#Cover_3b" type="AlbumCover" xAnchor="#Cover_2.5" x="0" yAnchor="#Cover_1.Bottom" y="1" align="Top.Left" widthDock="x:#Cover_5.90" width="0" heightDock="y:#Cover_22b.Top" height="0" brightness="1"></element>
+
 
   <!-- Artist Image Panel-->
-  <element name="#IIL" type="Block" xAnchor="#B5.129" x="0" yAnchor="#B6.63.5" y="0" widthDock="X:#B21.104" width="0" heightDock="Y:#Cover_3b.Bottom" height="2" bg="90,0,0,0" ></element>
+  <element name="#IIL" type="Block" xAnchor="#Cover_6.Left" x="0" yAnchor="#Cover_6a.Bottom" y="5" align="Bottom" widthDock="x:#Cover_22a.Left" width="0" heightDock="Y:#Cover_17b.Top" height="2" bg="90,0,0,0" ></element>
   <element type="Gallery" xAnchor="#IIL.Left" x="0" yAnchor="#IIL.Top" y="0" widthDock="x:#IIL.Right" width="0" heightDock="y:#IIL.Bottom" height="0" aspectRatio="zoomKeep" fillColor="0,0,0,0" interval="40" tags="artist" ></element>
 
 	<!-- Artist Info Panel-->
@@ -104,7 +109,7 @@
 	</autoHide>
 
 	<!--Control Bar-->	
-	<element name="#Controls" type="Block"  xAnchor="#Cover_12b.Left" x="0" yAnchor="#Cover_12b.2" y="-1" widthDock="x:#Cover_22b.Right" width="1" heightDock="y:#Cover_12b.Bottom" height="1" bg="180,0,0,0" ></element>
+	<element name="#Controls" type="Block"  xAnchor="#Panel.Left" x="0" yAnchor="Panel.Bottom" y="-160" widthDock="x:#Cover_22b.Right" width="1" height="160" bg="180,0,0,0" ></element>
 	<element name="#OpenArtistInfoPanel" type="Text"  xAnchor="#Controls.92.5" x="0" yAnchor="#Controls.20" y="0" width="30" font="Segoe UI Symbol" style="Bold" size="10" fg="125,125,125" mouseOverFg="252,78,3" onClick="OpenAutoHidePanel:#ArtistInfoPanel"></element>
 	<element name="#OpenTrackListPanel" type="Text"  xAnchor="#Controls.97.5" x="0" yAnchor="#Controls.20" y="0" width="40" font="Segoe UI Symbol" style="Bold" size="10" fg="125,125,125"  mouseOverFg="252,78,3" onClick="OpenNowPlayingAssistant"></element>
 	<element name="#OpenLyricsPanel" type="Text"  xAnchor="#Controls.92.5" x="0" yAnchor="#Controls.70" y="0" width="30" font="Segoe UI Symbol" style="Bold" size="10" fg="125,125,125" mouseOverFg="252,78,3" onClick="OpenAutoHidePanel:#LyricsPanel"></element>
@@ -130,6 +135,17 @@
 	<element type="ProgressPosition" xAnchor="#Controls.37" x="0" yAnchor="#Controls.62.5" y="0" align="Center" widthDock="x:#Controls.45.5" width="0" font="Segoe UI" style="Regluar" size="10" fg="200,200,200" ></element>
 
 
-  <element type="SpectrumVisualiser" xAnchor="#Cover_17b.1.5" x="0" yAnchor="#Cover_17b.1" y="1" widthDock="X:#Cover_21b.Right" width="0" heightDock="y:#Cover_17b.Bottom" height="0" fg="95,255,255,255" bdr="225,252,140,3"></element>
+  <element type="SpectrumVisualiser" xAnchor="#Cover_17b.1.5" x="0" yAnchor="Panel.Bottom" y="-160" widthDock="X:#Cover_21b.Right" width="0" height="160" fg="95,255,255,255" bdr="225,252,140,3"></element>
+
+<!-- Shuffle -->
+<element type="Text" xAnchor="#Controls.35" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="shuffleToggle" visibleTrigger="shuffleOn">&#xE8B1;</element>
+<element type="Text" xAnchor="#Controls.35" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="shuffleToggle" visibleTrigger="ShuffleOff">&#xE94E;</element>
+
+
+<!-- Mute -->
+<element type="Text" xAnchor="#Controls.18" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="VolumeToggleMute" visibleTrigger="VolumeNotMute">&#xE7F5;</element>
+<element type="Text" xAnchor="#Controls.18" x="0" yAnchor="#Controls.60" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="55,255,255,255" mouseOverFg="13,212,83" onClick="VolumeToggleMute" visibleTrigger="VolumeMute">&#xE74F;</element>
+
+
 	
 </root>
